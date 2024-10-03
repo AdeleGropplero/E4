@@ -4,6 +4,8 @@ body {
     background-image: url(../img/sfondo.png);
     background-size: 145%;
     background-position: -50px;
+        font-family: "Poppins", sans-serif;
+            font-weight: 400;
 }
 
 /* HEADER */
@@ -68,6 +70,7 @@ main {
     font-style: normal;
     line-height: 30px;
     box-shadow: 0px 3px 2px 0px #3d3f40df;
+    padding-bottom: 20px;
     
     
 }
@@ -145,15 +148,23 @@ thead{
     width: 100%;
 }
 
-#t1{
+th {
+    border-right: 0.5px solid white;
+}
+
+td {
+    border-right: 0.5px solid white;
+}
+
+#t1 {
     width: 29%;
-    border-right: #ffffff 1px;
 }
 
 .tr-grey {
     background-color: rgb(242, 242, 242);
     border-top:#d2d2d2 solid 1px;
     border-bottom: #d2d2d2 solid 1px;
+    
 }
 
 tbody tr {
@@ -219,6 +230,61 @@ background-color: rgb(45, 46, 65);
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
+
 }
 
+main div {
+    border: solid 1px rgb(161, 161, 161);
+    background-color: rgb(234, 234, 234);
+    margin-bottom: 20px;
+    padding-bottom: 30;
+}
+
+main div a {
+    color: #00aeff;
+    padding-left: 10px;
+}
+
+main div p {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.last {
+    text-align: right;
+    padding-right: 7px;
+    color: #5a6267;
+}
+
+
+
+
+
+
 /* FOOTER */
+
+footer {
+    border: solid 1px black;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+        padding-inline: 1rem;
+            text-align: center;
+            margin-inline: auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            max-width: 270px;
+        
+            background-image: linear-gradient(0deg, #13104ff6 0%, #1c5113e2 100%);
+            color: white;
+}
+
+footer p {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+address a {
+        color: rgb(218, 15, 222);
+    
+}
